@@ -7,16 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D1D2DDD2884A37700F1D859 /* MPSImageLanczosScale+CropToSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D2DDC2884A37700F1D859 /* MPSImageLanczosScale+CropToSquare.swift */; };
+		5D714FE928842A4E00204065 /* CameraSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D714FE828842A4E00204065 /* CameraSession.swift */; };
+		5D714FEC28843F9800204065 /* CameraMetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D714FEB28843F9800204065 /* CameraMetalView.swift */; };
+		5D714FF02884493100204065 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D714FEF2884493100204065 /* ContentView.swift */; };
+		5D714FF22884499C00204065 /* CameraSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D714FF12884499C00204065 /* CameraSessionView.swift */; };
+		5D714FF828845CCC00204065 /* CameraRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D714FF728845CCC00204065 /* CameraRenderer.swift */; };
+		5D714FFB288464B400204065 /* CVPixelBuffer+MTLTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D714FFA288464B300204065 /* CVPixelBuffer+MTLTexture.swift */; };
+		5D714FFD28846EC300204065 /* Petal.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5D714FFC28846EC300204065 /* Petal.metal */; };
+		5D714FFF2884820100204065 /* Fisheye.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5D714FFE2884820100204065 /* Fisheye.metal */; };
+		5D7150012884820900204065 /* Fisheye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7150002884820900204065 /* Fisheye.swift */; };
+		5D7150032884857A00204065 /* MTLComputePipelineState+threadgroupSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7150022884857A00204065 /* MTLComputePipelineState+threadgroupSize.swift */; };
 		5DFD40522884285B001049DC /* FishEyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFD40512884285B001049DC /* FishEyeApp.swift */; };
-		5DFD40542884285B001049DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFD40532884285B001049DC /* ContentView.swift */; };
 		5DFD40562884285D001049DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFD40552884285D001049DC /* Assets.xcassets */; };
 		5DFD40592884285D001049DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFD40582884285D001049DC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D1D2DDC2884A37700F1D859 /* MPSImageLanczosScale+CropToSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MPSImageLanczosScale+CropToSquare.swift"; sourceTree = "<group>"; };
+		5D714FE828842A4E00204065 /* CameraSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSession.swift; sourceTree = "<group>"; };
+		5D714FEB28843F9800204065 /* CameraMetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraMetalView.swift; sourceTree = "<group>"; };
+		5D714FEF2884493100204065 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D714FF12884499C00204065 /* CameraSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSessionView.swift; sourceTree = "<group>"; };
+		5D714FF728845CCC00204065 /* CameraRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRenderer.swift; sourceTree = "<group>"; };
+		5D714FFA288464B300204065 /* CVPixelBuffer+MTLTexture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+MTLTexture.swift"; sourceTree = "<group>"; };
+		5D714FFC28846EC300204065 /* Petal.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Petal.metal; sourceTree = "<group>"; };
+		5D714FFE2884820100204065 /* Fisheye.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Fisheye.metal; sourceTree = "<group>"; };
+		5D7150002884820900204065 /* Fisheye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fisheye.swift; sourceTree = "<group>"; };
+		5D7150022884857A00204065 /* MTLComputePipelineState+threadgroupSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MTLComputePipelineState+threadgroupSize.swift"; sourceTree = "<group>"; };
 		5DFD404E2884285B001049DC /* FishEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFD40512884285B001049DC /* FishEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishEyeApp.swift; sourceTree = "<group>"; };
-		5DFD40532884285B001049DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DFD40552884285D001049DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DFD40582884285D001049DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +52,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D714FE728842A4600204065 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				5D714FE828842A4E00204065 /* CameraSession.swift */,
+				5D714FF12884499C00204065 /* CameraSessionView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		5D714FEA28843F8700204065 /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				5D714FEB28843F9800204065 /* CameraMetalView.swift */,
+				5D714FF728845CCC00204065 /* CameraRenderer.swift */,
+				5D714FFC28846EC300204065 /* Petal.metal */,
+				5D714FFA288464B300204065 /* CVPixelBuffer+MTLTexture.swift */,
+				5D714FFE2884820100204065 /* Fisheye.metal */,
+				5D7150002884820900204065 /* Fisheye.swift */,
+				5D7150022884857A00204065 /* MTLComputePipelineState+threadgroupSize.swift */,
+				5D1D2DDC2884A37700F1D859 /* MPSImageLanczosScale+CropToSquare.swift */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
 		5DFD40452884285B001049DC = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +96,9 @@
 			isa = PBXGroup;
 			children = (
 				5DFD40512884285B001049DC /* FishEyeApp.swift */,
-				5DFD40532884285B001049DC /* ContentView.swift */,
+				5D714FEF2884493100204065 /* ContentView.swift */,
+				5D714FE728842A4600204065 /* Camera */,
+				5D714FEA28843F8700204065 /* Metal */,
 				5DFD40552884285D001049DC /* Assets.xcassets */,
 				5DFD40572884285D001049DC /* Preview Content */,
 			);
@@ -137,7 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DFD40542884285B001049DC /* ContentView.swift in Sources */,
+				5D714FF828845CCC00204065 /* CameraRenderer.swift in Sources */,
+				5D1D2DDD2884A37700F1D859 /* MPSImageLanczosScale+CropToSquare.swift in Sources */,
+				5D714FEC28843F9800204065 /* CameraMetalView.swift in Sources */,
+				5D714FF22884499C00204065 /* CameraSessionView.swift in Sources */,
+				5D714FE928842A4E00204065 /* CameraSession.swift in Sources */,
+				5D714FFB288464B400204065 /* CVPixelBuffer+MTLTexture.swift in Sources */,
+				5D714FF02884493100204065 /* ContentView.swift in Sources */,
+				5D714FFD28846EC300204065 /* Petal.metal in Sources */,
+				5D7150032884857A00204065 /* MTLComputePipelineState+threadgroupSize.swift in Sources */,
+				5D7150012884820900204065 /* Fisheye.swift in Sources */,
+				5D714FFF2884820100204065 /* Fisheye.metal in Sources */,
 				5DFD40522884285B001049DC /* FishEyeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,11 +326,13 @@
 				DEVELOPMENT_TEAM = 6CX35BBHC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "~(-_-)~";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortraitUpsideDown;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +340,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrykevych.FishEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,11 +360,13 @@
 				DEVELOPMENT_TEAM = 6CX35BBHC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "~(-_-)~";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortraitUpsideDown;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +374,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrykevych.FishEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

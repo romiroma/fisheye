@@ -6,20 +6,27 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-    }
-}
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    let cameraSession: CameraSession
+    @ObservedObject var cameraRenderer: CameraRenderer
+
+    var body: some View {
+        ZStack {
+            CameraMetalView(coordinator: cameraRenderer)
+            CameraSessionView(session: cameraSession)
+            VStack {
+                Spacer()
+                Slider(value: .init(get: {
+                    cameraRenderer.fisheyeModifier
+                }, set: { n in
+                    cameraRenderer.fisheyeModifier = n
+                }),
+                       in: 0...1)
+            }
+
+        }
     }
 }

@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 @main
 struct FishEyeApp: App {
+
+    private let renderer: CameraRenderer = try! .init(device: MTLCreateSystemDefaultDevice()!)
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(cameraSession: .init(sampleBufferDelegate: renderer),
+                        cameraRenderer: renderer)
         }
     }
 }
