@@ -1,4 +1,5 @@
-# fisheye
-Fisheye effect demonstration
+# FishEye App
 
-Provide access to camera to see in action
+Simple SwiftUI App for Fisheye distortion effect using Metal shader demonstration
+
+Provide access to Camera to see in action
